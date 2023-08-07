@@ -76,6 +76,39 @@
   transform: scaleX(1);
 }
 
+.home-height {
+  padding-bottom: 20vw;
+}
+
+.sushi {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 60%;
+  transform: translate(0, -50%);
+}
+
+@media screen and (max-width: 992px) {
+  .sushi {
+    top: 65%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home-height {
+    padding-bottom: 30vw;
+  }
+  .sushi {
+    top: 70%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .home-height {
+    padding-bottom: 5vw;
+  }
+  .sushi {
+    display: none;
+  }
+}
 /*!
  * Bootstrap  v5.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
