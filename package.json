@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-restaurant-website",
+  "version": "1.0.0",
+  "description": "Restaurant website using bootstrap v5 and sass(scss) personnalisation",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass scss/global.scss styles/raw/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ponifty/bootstrap-restaurant-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ponifty/bootstrap-restaurant-website/issues"
+  },
+  "homepage": "https://github.com/Ponifty/bootstrap-restaurant-website#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  }
+}
