@@ -14,46 +14,121 @@
     <link rel="stylesheet" href="styles/raw/style.css" />
   </head>
   <body class="max-width-body text-light">
-    <!-- Navbar -->
+    <header>
+      <!-- Navbar -->
+      <nav class="main-nav bg-dark d-flex justify-content-center py-3">
+        <a
+          href="index.html"
+          class="text-light text-uppercase text-decoration-none"
+          >Home</a
+        >
+        <a
+          href="menu.html"
+          class="text-light text-uppercase text-decoration-none ms-3"
+          >Menu</a
+        >
+        <a
+          href="reservation.html"
+          class="text-light text-uppercase text-decoration-none ms-3"
+          >Reservation</a
+        >
+      </nav>
+    </header>
 
-    <nav class="main-nav bg-dark d-flex justify-content-center py-3">
-      <a
-        href="index.html"
-        class="text-light text-uppercase text-decoration-none"
-        >Home</a
-      >
-      <a
-        href="menu.html"
-        class="text-light text-uppercase text-decoration-none ms-3"
-        >Menu</a
-      >
-      <a
-        href="reservation.html"
-        class="text-light text-uppercase text-decoration-none ms-3"
-        >Reservation</a
-      >
-    </nav>
+    <main>
+      <!-- Home -->
+      <section class="home-height bg-dark position-relative">
+        <div class="container p-5">
+          <p class="text-center text-custom-beige">
+            Japanese restaurant Award 2019-2021
+          </p>
+        </div>
+        <h1 class="playfaire-font display-3">Your best Sushis provider</h1>
+        <p class="fw-lighter">Our chefs are waiting for your order.</p>
+        <div class="col-lg-6 col-md-10 col-sm-12 d-none d-sm-block">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            dicta cum exercitationem, illum minima cupiditate.
+          </p>
+        </div>
+        <a href="./reservation.html" class="btn btn-custom-beige mt-2"
+          >Call us for an appointment.</a
+        >
+        <img src="assets/images/sushi.png" alt="sushi" class="sushi" />
+      </section>
 
-    <!-- Home -->
-
-    <div class="home-height bg-dark position-relative">
-      <div class="container p-5">
-        <p class="text-center text-custom-beige">
-          Japanese restaurant Award 2019-2021
+      <!-- Food section -->
+      <section class="bg-custom-beige py-5">
+        <p class="text-center text-dark-1 mb-1">
+          Only fresh and top quality food
         </p>
-      </div>
-      <h1 class="playfaire-font display-3">Your best Sushis provider</h1>
-      <p class="fw-lighter">Our chefs are waiting for your order.</p>
-      <div class="col-lg-6 col-md-10 col-sm-12 d-none d-sm-block">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          dicta cum exercitationem, illum minima cupiditate.
+        <h2 class="playfair-font text-center display-5 text-dark-1 mb-3">
+          Take a sit, relax, we handle it
+        </h2>
+        <p class="text-center text-dark-1 mb-5">
+          Here is a glimpse of our best products
         </p>
-      </div>
-      <a href="./reservation.html" class="btn btn-custom-beige mt-2"
-        >Call us for an appointment.</a
-      >
-      <img src="assets/images/sushi.png" alt="sushi" class="sushi" />
-    </div>
+
+        <div class="container pb-5">
+          <div
+            class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5 justify-content-center"
+          >
+            <div>
+              <div class="card text-light">
+                <img
+                  src="assets/images/sushi-dish.jpg"
+                  alt="sushi dish"
+                  class="card-img-top"
+                />
+                <div class="card-body bg-dark-1">
+                  <p class="card-text mb-0">Elected dish of the year</p>
+                  <h3 class="playfair-font card-title mt-2">
+                    World class sushi
+                  </h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis, cumque.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card text-light">
+                <img
+                  src="assets/images/roasted-salmon.jpg"
+                  alt="roasted salmon"
+                  class="card-img-top"
+                />
+                <div class="card-body bg-dark-1">
+                  <p class="card-text mb-0">Elected dish of the year</p>
+                  <h3 class="playfair-font card-title mt-2">Roasted Salmon</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis, cumque.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card text-light">
+                <img
+                  src="assets/images/sashimi.jpg"
+                  alt="sashimi delight"
+                  class="card-img-top"
+                />
+                <div class="card-body bg-dark-1">
+                  <p class="card-text mb-0">Elected dish of the year</p>
+                  <h3 class="playfair-font card-title mt-2">Sashimi Delight</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis, cumque.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
