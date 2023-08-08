@@ -109,6 +109,14 @@
     display: none;
   }
 }
+.object-cover {
+  object-fit: cover;
+}
+
+.object-pos-top {
+  object-position: 50% 30%;
+}
+
 /*!
  * Bootstrap  v5.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -8111,6 +8119,18 @@ textarea.form-control-lg {
 
 .h-auto {
   height: auto !important;
+}
+
+.h-300 {
+  height: 300px !important;
+}
+
+.h-400 {
+  height: 400px !important;
+}
+
+.h-750 {
+  height: 750px !important;
 }
 
 .mh-100 {
