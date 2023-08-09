@@ -51,9 +51,10 @@
   font-family: "Playfair Display", serif;
 }
 
-.max-width-body {
+.custom-body {
   max-width: 1920px;
   margin: 0 auto;
+  padding-top: 55px;
 }
 
 .main-nav a {
