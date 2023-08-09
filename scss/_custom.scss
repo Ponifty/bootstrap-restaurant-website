@@ -80,3 +80,15 @@ $font-family-base: Montserrat, sans-serif;
 .object-pos-top {
   object-position: 50% 30%;
 }
+
+//********************************************//
+// Mosaic section main page
+
+@media screen and (max-width: 991px) {
+  .responsive-order-1 {
+    order: 1;
+  }
+  .responsive-order-2 {
+    order: 2;
+  }
+}
