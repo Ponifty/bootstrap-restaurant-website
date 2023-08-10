@@ -1,50 +1,50 @@
 @charset "UTF-8";
 .bg-main-red {
-  background-color: #c70a0a;
+  background-color: #c70a0a !important;
 }
 
 .text-main-red {
-  color: #c70a0a;
+  color: #c70a0a !important;
 }
 
 .bg-shade-red-1 {
-  background-color: #c33838;
+  background-color: #c33838 !important;
 }
 
 .text-shade-red-1 {
-  color: #c33838;
+  color: #c33838 !important;
 }
 
 .bg-shade-red-2 {
-  background-color: #ebb3a9;
+  background-color: #ebb3a9 !important;
 }
 
 .text-shade-red-2 {
-  color: #ebb3a9;
+  color: #ebb3a9 !important;
 }
 
 .bg-shade-red-3 {
-  background-color: #e87ea1;
+  background-color: #e87ea1 !important;
 }
 
 .text-shade-red-3 {
-  color: #e87ea1;
+  color: #e87ea1 !important;
 }
 
 .bg-dark-1 {
-  background-color: #3d3a4b;
+  background-color: #3d3a4b !important;
 }
 
 .text-dark-1 {
-  color: #3d3a4b;
+  color: #3d3a4b !important;
 }
 
 .bg-custom-beige {
-  background-color: #eeebd0;
+  background-color: #eeebd0 !important;
 }
 
 .text-custom-beige {
-  color: #eeebd0;
+  color: #eeebd0 !important;
 }
 
 .playfair-font {

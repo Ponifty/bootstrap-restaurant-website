@@ -4,7 +4,8 @@
   "description": "Restaurant website using bootstrap v5 and sass(scss) personnalisation",
   "main": "index.js",
   "scripts": {
-    "sass": "sass scss/global.scss styles/raw/style.css --watch"
+    "sass": "sass scss/global.scss styles/raw/style.css --watch",
+    "purgecss": "purgecss --css styles/raw/style.css --content index.html scripts/*.js -o styles/cleaned/home.css"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/Ponifty/bootstrap-restaurant-website#readme",
   "dependencies": {
-    "bootstrap": "^5.3.1"
+    "bootstrap": "^5.3.1",
+    "purgecss": "^5.0.0"
   }
 }
